@@ -1,0 +1,25 @@
+{
+  "name": "solid-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "geometric-calculation:bad": "ts-node src/geometric-calculation/bad/index.ts",
+    "geometric-calculation:good": "ts-node src/geometric-calculation/good/index.ts",
+    "vehicle:bad": "ts-node src/vehicle/bad/index.ts",
+    "vehicle:good": "ts-node src/vehicle/good/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanPaulino/solid-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanPaulino/solid-course/issues"
+  },
+  "homepage": "https://github.com/JuanPaulino/solid-course#readme",
+  "dependencies": {
+    "ts-node": "^10.2.1"
+  }
+}
