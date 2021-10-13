@@ -13,6 +13,6 @@ const RectangleArea = calculate.areaOf(GeometricShape.RECTANGLE, rectangleOption
 
 const TABULATION = '  '
 console.log(`--- GEOMETRIC CALCULATION BAD EXAMPLE ---`)
-console.log(`${TABULATION}Circle: ${CircleArea}`)
-console.log(`${TABULATION}Square: ${SquareArea}`)
-console.log(`${TABULATION}Rectangle: ${RectangleArea}`)
+console.log(`${TABULATION}Circle Area: ${CircleArea}`)
+console.log(`${TABULATION}Square Area: ${SquareArea}`)
+console.log(`${TABULATION}Rectangle Area: ${RectangleArea}`)
