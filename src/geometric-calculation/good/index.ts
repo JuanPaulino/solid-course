@@ -3,7 +3,6 @@ import Circle from './circle'
 import Square from './square'
 import Rectangle from './rectangle'
 
-const calculate = new Calculate()
 
 let CircleOptions = { radio: 2 }
 const circle = new Circle(CircleOptions)
@@ -14,6 +13,7 @@ const square = new Square(SquareOptions)
 const RectangleOptions = { width: 2, height: 4 }
 const rectangle = new Rectangle(RectangleOptions)
 
+const calculate = new Calculate()
 const CircleArea = calculate.area(circle)
 const SquareArea = calculate.area(square)
 const RectangleArea = calculate.area(rectangle)
