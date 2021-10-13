@@ -1,7 +1,7 @@
 import GeometricShape from './geometric-Shape'
 
 class Calcuclate {
-  public area(geometricShape: GeometricShape) {
+  public area(geometricShape: GeometricShape): number {
     return geometricShape.area()
   }
 }
