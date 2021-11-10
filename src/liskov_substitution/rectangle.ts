@@ -16,7 +16,6 @@ class Rectangle {
   public setHeight(options: { height: number }) {
     const { height } = options
     this.height = height
-    console.log(options)
   }
   
   public area(): number {
